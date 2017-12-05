@@ -14,7 +14,7 @@ TODOS OS COMANDOS PRECISAM SER REALIZADOS EM MODO ROOT
 ### Acesse o servidor
 ```http://localhost:49160/```
 ### Rode o cliente
-```docker exec -it cupify bash -c "cd client && npm start"```
+```docker exec -it cupify bash -c "cd client && npm install && npm start"```
 ### Acesse o cliente com o ip dado em "On Your Network:" do cmd
 ```Ex: http://127.0.0.1:3001/```
 
